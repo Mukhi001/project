@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+        height: 800px;
+        width: 100%;
+        background-color: rgb(236, 236, 236);
+        
+        display: inline-block;
+      }
+     
+      .rh {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 30px;
+        font-family: sans-serif;
+        justify-content: end;
+        color: gray;
+        
+      }
+      .rh:hover {
+        color: skyblue;
+      }
+      h2{
+        color: gray;
+        font-family: sans-serif;
+        font-size: 40px;
+        margin-left: 50px;
+        margin-bottom: 40px;
+        padding-left: 20px;
+    padding-right: 20px;
+      }
+      .co{
+        display: flex;
+        margin-left: 70px;
+        margin-right: 70px;
+        gap:30px;
+        
+      }
+      
+      
+      .btn1{
+        width: 100px;
+margin-top: 20px;
+margin-left: 100px;
+cursor: pointer;
+   padding-left:  30px;
+   padding-top: 13px;
+   padding-bottom: 13px;
+   padding-right: 20px;
+   
+font-family: sans-serif;
+
+    color: white;
+    background-color: rgb(27, 158, 210);
+    display: inline-block;
+    
+   
+    font-size: 19px;
+    
+      }
+      #pa{
+        font-style:italic ;
+        color: rgb(163, 162, 162);
+      }
+      .coc>p{
+        font-size: 19px;
+        line-height: 30px;
+        font-family: sans-serif;
+        color: rgb(126, 124, 124);
+        
+      }
+      .coc1>p{
+        font-size: 19px;
+        line-height: 30px;
+        font-family: sans-serif;
+        color: rgb(126, 124, 124);
+      }
+      a{
+        text-decoration: none;
+      }
+      .coc2>p{
+        font-size: 19px;
+        line-height: 30px;
+        font-family: sans-serif;
+        color: rgb(126, 124, 124);
+      }
+      .al{
+        color: skyblue;
+      }
+      .coc1>img{
+          width: 100%;
+      }
+    .coc2>img{
+        padding-top: 30px;
+        height: 30%;
+        width: 100%;
+    }
+    .coc{
+      display: flex;
+      flex-direction: column;
+      width:120%;
+    }
+    @media (min-width:330px) and (max-width:400px){
+  .parent{
+height:100%;
+width:100%;
+margin:0 ;
+  }
+  .co{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .coc>p{
+    font-size: 19px;
+        line-height: 30px;
+        font-family: sans-serif;
+        color: rgb(126, 124, 124);
+        
+        height: fit-content;
+  }
+  .coc1{
+    width:100%;
+  }
+  .coc2{
+    width:100%;
+  }
+  .coc2>img{
+   height: 12%;
+       
+        width: 100%;
+  }
+}
+
+@media (min-width:400px) and (max-width:550px){
+  .parent{
+height:100%;
+width:100%;
+margin:0 ;
+  }
+  .co{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .coc>p{
+    font-size: 19px;
+        line-height: 30px;
+        font-family: sans-serif;
+        color: rgb(126, 124, 124);
+        
+        height: fit-content;
+  }
+  .coc1{
+    width:100%;
+  }
+  .coc2{
+    width:100%;
+  }
+  .coc2>img{
+   height: 20%;
+       
+        width: 100%;
+  }
+}
+
+@media (min-width:1353px){
+  .coc>p{
+        font-size: 19px;
+        line-height: 30px;
+        font-family: sans-serif;
+        color: rgb(126, 124, 124);
+        width:400px;
+       
+      }
+      .coc2{
+        margin-left: 10%;
+      }
+
+}
+
+@media (min-width:550px) and (max-width:1024px){
+  .parent{
+height:100%;
+width:100%;
+margin:0 ;
+  }
+  .co{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .coc>p{
+    font-size: 19px;
+        line-height: 30px;
+        font-family: sans-serif;
+        color: rgb(126, 124, 124);
+        
+        height: fit-content;
+  }
+  .coc1{
+    width:100%;
+  }
+  .coc2{
+    width:100%;
+  }
+  .coc2>img{
+   height: 40%;
+       
+        width: 100%;
+  }
+  .btn1{
+    margin-left: 40%;
+  }
+}
+
+@media (min-width:860px) and (max-width:1168px){
+  .parent{
+    height: 120%;;
+  }
+  .btn1{
+    margin-right: 50%;
+  }
+
+ 
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <a href="index.html">
+          <span class="rh">
+            return home
+            <div style="margin-left: 7px; margin-right: 10px;"><b>x</b></div>
+          </span></a>
+    
+  
+        
+    
+          <h2>Testimonials</h2>
+          <div class="co">
+
+
+
+         <div class="coc">
+            <p>OCEAN vibes is free website template from <span class="al">TemplateMo</span>  website. You are allowed to use it for commercial purpose. You can convert this template as a CMS theme or a custom website builder template.</p>
+            <p id="pa">You may support us by telling your friends about our TemplateMo site. Feel free to contact us if you have anything to ask.
+            </p>
+            <p>You can make a little contribution via PayPal or saying about TemplateMo to your friends. Duis egestas lorem eu nisi finibus, sit amet elementum lacus pretium</p>
+            <p>In tempor felis vitae nulla feugiat aliquam. Vivamus vitae congue mi. Sed maximus velit vestibulum nisl condimentum hendrerit.</p>
+         </div>
+
+         <div class="coc1">
+         <img src="./img/testimonial-01.jpg">
+         <p>"Suspendisse eu mollis diam, at ullamcorper diam. Ut sit amet arcu metus. Nullam mattis eros eget." by <span class="al">George, Chief Editor</span></p>
+         <p>"Quisque et lorem accumsan, sollicitudin dolor vel, facilisis eros. Donec aliquet felis in mollis egestas." by <span class="al">Mary, CEO of Web</span> </p>
+         <a href="practice7.html">
+         <div class="btn1">
+            Contact Us
+
+        </div></a>
+         </div>
+         <div class="coc2">
+            <p>Duis sapien diam, eleifend eget vehicula sed, convallis sit amet elit. Aenean condimentum vulputate porta.</p>
+            <p>Mauris accumsan erat ante, id sagittis felis gravida vitae. Sed iaculis tincidunt neque, a molestie magna vehicula at.</p>
+            <p>Phasellus ornare magna nec nulla pharetra, nec tristique elit lobortis.</p>
+            <img src="./img/testimonial-02.jpg" >
+         </div>
+
+
+
+
+          </div>
+         
+        </div>
+          
+</div>
+
+    
+</body>
+</html>

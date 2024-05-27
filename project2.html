@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    
+    <style>
+        
+        
+      .parent{
+        display:inline-block;
+        height: max-content;
+        width: 70%;
+        background-color: rgb(235, 232, 232);
+        padding: 30px;
+        margin-left: 200px;
+        margin-right: 200px;
+      }
+      .rh {
+        display: flex;
+
+        font-family: sans-serif;
+        justify-content: end;
+        color: gray;
+      }
+      .rh:hover {
+        color: skyblue;
+      }
+     
+      .content {
+        padding: 40px 55px 50px;
+        box-sizing: border-box;
+       display: flex;
+        
+      }
+      h2 {
+        color:rgb(19, 141, 255);
+        font-family: sans-serif;
+        margin-top: 0;
+        display: block;
+      }
+      .c{
+        display: flex;
+        background-color: white;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 50%;
+        gap:4%;
+      }
+      .p{
+        width:30%;
+        height: fit-content;
+        margin-right: 20px;
+        line-height: 25px;
+        font-size: 1em;
+       font-family: sans-serif;
+       color: gray;
+      margin-top: 5%;
+      }
+      .p2{
+        width:30%;
+        height: fit-content;
+        line-height: 28px;
+       padding-top:1.7em;
+        font-size: 1em;
+        font-family: sans-serif;
+        margin-top: 5%;
+
+
+       color:gray;
+       
+      }
+      
+     
+      
+      .btn1{
+        width: 100px;
+margin-top: 75px;
+margin-left: 70px;
+        
+   padding-left:  25px;
+   padding-top: 13px;
+   padding-bottom: 13px;
+   padding-right: 10px;
+   
+
+
+    color: white;
+    background-color: rgb(27, 158, 210);
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    font-size: 19px;
+    
+      }
+      a{
+        text-decoration: none;
+      }
+       @media  (min-width:1280px){
+              .parent{
+                width:80%;
+              }
+       }
+       @media  (max-width:550px){
+              .parent{
+                margin-left: 0;
+                margin-right:0 ;
+                box-sizing: border-box;
+                width:100%;
+              }
+              .c{
+                flex-wrap: wrap;
+                
+              }
+              .p{
+                width: 100%;
+              }
+              .p2{
+                width: 100%;
+              }
+              img{
+                
+                width: 100%;
+              }
+       }
+
+       @media  (min-width:1024px){
+              .parent{
+                width:80%;
+              }
+              .c{
+                flex-wrap: nowrap;
+              }
+       }
+     
+     
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <a href="index.html">
+      <span class="rh">
+        return home
+        <div style="margin-left: 3px;"><b>x</b></div>
+      </span></a>
+      
+        
+      
+          
+            <div class="c">
+             
+             <div class="img"><img src="./img/intro.jpg" height="550px"></div>
+             
+
+                <div class="p">
+                  <h2>Introducing Ocean Vibes</h2>
+                    <p>This CSS template is 100% free provided by TemplateMo website. You can use this template for any purpose. You can apply this as a CMS theme or a custom website builder template.</p>
+                     <p>You can support our website by contributing a little <b>PayPal</b> or spreading a word about TemplateMo tp your friends. If you have any question, feel free to send us a message.</p>
+                    <p><b>Credit</b> goes to Pexels for the video banner and images used in this template. Some images are taken from Unsplash. Both Pexels and Unsplash are great websites for free photos.</p>
+                </div>
+                <div class="p2">
+                    <p>You are not allowed to re-distribute this template as a downloadable ZIP file on any template collection website.</p>
+                    <p>Top right corner is a return home with an icon that will close this pop-up page.</p>
+                    <p>Next Page will bring you to the gallery page directly without going back to main menu.</p>
+                 <a href="practice3.html">
+                    <div class="btn1">
+                        Next page
+
+
+                    </div></a>
+                </div>
+              </div>
+        
+       
+      </div>
+    </div>
+  </body>
+</html>

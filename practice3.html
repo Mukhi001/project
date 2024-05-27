@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+      .parent {
+        height: 625px;
+        
+        width: 1100px;
+       
+        margin-left: 200px;
+        margin-right: 200px;
+        background-color: rgb(236, 236, 236);
+       
+        display: inline-block;
+      }
+      .rh {
+        display: flex;
+
+        font-family: sans-serif;
+        justify-content: end;
+        color: gray;
+        margin-top: 20px;
+        margin-right: 20px;
+      }
+      .rh:hover {
+        color: skyblue;
+      }
+
+      .pics {
+        width: 90%;
+        flex-wrap: wrap;
+        
+        display: flex;
+
+      }
+      .pics > img {
+        overflow: hidden;
+        
+        width: 22%;
+        height: 200px;
+
+        text-align: center;
+        overflow: hidden;
+    margin: 15px 10px;
+   
+    background: #3085a3;
+    
+      }
+
+      
+      
+
+      .a1,
+      .a2,
+      .a3,
+      .a4 {
+        display: flex;
+        float: inline-start;
+        width: 40px;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+
+        margin-right: 10px;
+        margin-bottom: 30px;
+      }
+      .a2,
+      .a3,
+      .a4 {
+        background-color: white;
+        color: gray;
+      }
+      .a2:hover,
+      .a3:hover,
+      .a4:hover {
+        background-color: skyblue;
+        color: white;
+      }
+      .a1 {
+        background-color: skyblue;
+        color: white;
+      }
+      .content {
+        display: flex;
+        height: 600px;
+        width: 68%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap:30px;
+      }
+      
+      .num{
+        margin-left: 20px;
+       margin-top: 10px;
+       cursor: pointer;
+      }
+      .para {
+        margin-bottom: 50px;
+        margin-right:20px;
+      }
+      h2{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 30px;
+        color: skyblue;
+      }
+      .it{
+        margin-left: 15px;
+    margin-bottom: 55px;
+    list-style: none;
+   
+  font-size: 40px;
+      }
+      .it>li{
+        margin-bottom: 20px;
+        font-family: sans-serif;
+        font-size: 19px;
+        cursor: pointer;
+      }
+      .material-symbols-outlined{
+        margin-right:10px;
+      }
+      .l2, .l3, .l4, .l5{
+        color: gray;
+      }
+      .l1{
+        color: skyblue;
+      }
+      a{
+        text-decoration: none;
+      }
+      .l2:hover, .l3:hover, .l4:hover, .l5:hover{
+        color: skyblue;
+      }
+      .p1, .p2{
+        line-height: 25px;
+        height: 100px;
+        width:300px;
+        font-family: sans-serif;
+        font-size: 16px;
+        color: gray;
+      }
+     
+
+      @media (max-width:480px){
+        .content{
+          flex-wrap: nowrap;
+          align-items: center;
+          
+       width:100%;
+        
+       
+        
+        
+        gap:30px;
+      
+        }
+        .parent{
+          width: 100%;
+          height: 1700px;
+          margin-left: 0;
+          margin-right: 0;
+        }
+        .pics>img{
+          width:40%
+        }
+        
+      }
+
+      @media (min-width:480px) and (max-width:615px){
+        .content{
+          flex-wrap: nowrap;
+          align-items: center;
+          width:100%;
+          gap:30px;
+        }
+        .parent{
+          width: 100%;
+          height: 1200px;
+        }
+        .pics>img{
+          width:20%;
+          flex-wrap: wrap;
+        }
+        .para>h2{
+          margin-top:0px;
+        
+          font-size: 250%;
+          margin-bottom: 20px;
+        }
+        .it>li{
+        
+          display: inline-block;
+          font-size: 0.7em;
+          margin-left: 80px;
+       
+        }
+        .items>ul{
+          margin-top: 10px;
+          padding-inline-start: 0;
+        }
+        .material-symbols-outlined{
+          margin-right: 0%;
+        }
+        .p1, .p2{
+        line-height: 25px;
+        
+        width:100%;
+        font-family: sans-serif;
+        font-size: 16px;
+        color: gray;
+      }
+      }
+
+
+      @media (min-width:615px) and (max-width:1105px){
+        .content{
+          flex-wrap: nowrap;
+          align-items: center;
+          width:100%;
+          gap:30px;
+        }
+        .parent{
+          width: 100%;
+          height: 1100px;
+        }
+        .pics>img{
+          width:20%;
+          flex-wrap: wrap;
+        }
+        .para>h2{
+          margin-top:0px;
+          margin-right: 28rem;
+          font-size: 250%;
+          margin-bottom: 20px;
+        }
+        .it>li{
+        
+          display: inline-block;
+          font-size: 0.7em;
+          margin-left: 80px;
+       
+        }
+        .items>ul{
+          margin-top: 10px;
+          padding-inline-start: 0;
+        }
+        .material-symbols-outlined{
+          margin-right: 0%;
+        }
+        .p1, .p2{
+        line-height: 25px;
+        
+        width:100%;
+        font-family: sans-serif;
+        font-size: 16px;
+        color: gray;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <a href="index.html">
+      <span class="rh">
+        return home
+        <div style="margin-left: 3px"><b>x</b></div>
+      </span></a>
+    
+    <div class="content">
+        <div class="pics">
+          <img src="./img/gallery/portrait-01.jpg" />
+          <img src="./img/gallery/nature-01.jpg" />
+          <img src="./img/gallery/animal-01.jpg" />
+          <img src="./img/gallery/building-01.jpg" />
+          <img src="./img/gallery/portrait-02.jpg" />
+          <img src="./img/gallery/nature-02.jpg" />
+          <img src="./img/gallery/animal-02.jpg" />
+          <img src="./img/gallery/building-02.jpg" />
+        </div>
+          
+
+
+          <div class="num">
+            <div class="a1">1</div>
+            <div class="a2">2</div>
+            <div class="a3">3</div>
+            <div class="a4">4</div>
+          </div>
+
+
+
+
+          <div class="para">
+            <h2>Gallery</h2>
+
+            <div class="items">
+               <ul class="it">
+                   <li class="l1"> <span class="material-symbols-outlined">
+                       stacks
+                       </span> All</li>
+                   <li class="l2"><span class="material-symbols-outlined">
+                       photo_camera_front
+                       </span>Portraits</li>
+                   <li class="l3"><span class="material-symbols-outlined">
+                       nest_eco_leaf
+                       </span>Nature</li>
+                   <li class="l4"><span class="material-symbols-outlined">
+                       pets
+                       </span>Animal</li>
+                   <li class="l5"><span class="material-symbols-outlined">
+                       apartment
+                       </span>Buildings</li>
+
+               </ul>
+                  <div class="p1"><p>Different icons are used for different categories. There are 4 or more pages of photos in this gallery. Each thumbnail has a nice hover effect.</p></div>
+                   <div class="p2"><p>Proin lacus enim, finibus sed magna a, molestie lacinia est. Maecenas id dolor Lorem. Donec sodales ex velit.</p></div>
+            </div>
+           </div>
+
+
+
+
+
+
+        </div>
+
+
+
+        
+            
+        
+
+</div>
+
+      
+      </div>
+    </div>
+  </body>
+</html>

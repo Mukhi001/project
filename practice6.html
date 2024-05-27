@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+        height: 95vh;
+        width: 80%;
+        background-color: rgb(236, 236, 236);
+        margin-left: 10%;
+        display: inline-block;
+      }
+     .a2{
+      color: skyblue;
+     }
+      .rh {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 30px;
+        font-family: sans-serif;
+        justify-content: end;
+        color: gray;
+        
+      }
+      a{
+      text-decoration: none;
+      }
+      .rh:hover {
+        color: skyblue;
+      }
+      h2{
+        color: skyblue;
+        font-family: sans-serif;
+        font-size: 40px;
+        padding-left: 5%;
+      }
+     img{
+        margin-bottom: 15px;
+        width:90%;
+     }
+      .pll{
+        display: flex;
+        /* flex-direction: column; */
+        height: 200px;
+        padding-left: 5%;
+     
+      gap:50px;
+        font-family:sans-serif;
+        color: gray;
+        line-height: 30px;
+        font-size:19px;
+       
+      }
+      .child{
+        margin-right:30px;
+
+      }
+      .parap{
+        
+        width:90% ;
+      }
+      .parap2{
+        width:90%;
+      }
+      .btn1{
+        width: 100px;
+margin-top: 20px;
+margin-left: 0px;
+        
+   padding-left:  25px;
+   padding-top: 13px;
+   padding-bottom: 13px;
+   padding-right: 20px;
+   
+
+
+    color: white;
+    background-color: rgb(27, 158, 210);
+    
+    border: none;
+    cursor: pointer;
+    font-size: 19px;
+    
+      }
+      @media (max-width:480px){
+         .pll{
+          flex-wrap: nowrap;
+          flex-direction: column;
+          align-items: center;
+         }
+         .parent{
+          height:1300px;
+          width:100%;
+          margin:0;
+         }
+         .parap2>img{
+          width: 100%;
+         }
+        .btn1{
+          margin-left: 35%;
+        }
+        .parap>.btn1{
+          justify-content: center;
+        }
+      }
+
+      @media (min-width:1067px) and (max-width:1400px){
+           .parent{
+            height:105vh;
+           }
+      }
+      @media (min-width:900px) and (max-width:1067px){
+        .parent{
+          height: 120vh;
+        }
+      }
+       @media (min-width:650px) and (max-width:900px){
+        .parent{
+          height: 140vh;
+        }
+      }
+    @media (min-width:480px) and (max-width:650px){
+        .parent{
+          height: 190vh;
+        }
+      }
+   
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+          <a href="index.html">
+          <span class="rh">
+            return home
+            <div style="margin-left: 3px;"><b>x</b></div>
+          </span></a>
+    
+  
+        
+    
+          <h2>About Ocean Vibes</h2>
+          <div class="pll">
+            <div class="parap2">
+                <img src="./img/about.jpg">
+            <p>Suspendisse sit amet pellentesque nunc. Vivamus fringilla tellus finibus lacus blandit, siet amet aliquet augue sagittis. Duis nec auctor felis, nec ornare ex. In non ante ligula.</p>
+            <p>Curabitur non augue dignissim est pulvibar lobortis. Nunc vulputate, mi vel cursus mollis, justo mauris rutrum dui, id egestas ante ligula id nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+           
+          </div>
+          <div class="parap">
+            <p> You are not allowed to re-distribute this template ZIP file on any website that <span class="a2">collects and reposts</span> free templates from many different websites</p>
+            <p>Pellentesque vitae ipsum vel risus molestie cursus nec quis lectus. Duis egestas lorem eu nisi finibus, sit amet elementum lacus pretium. In tempor felis vitae nulla feugiat aliquam.</p>
+           <p>If you need a working HTML contact form, please visit our contact page.</p>
+           <a href="practice7.html">
+           <div class="btn1">
+            Contact Us
+
+        </div></a>
+          </div>
+
+          
+            
+          
+   
+   
+        </div>
+   
+    
+</div>
+</div>
+        </div>
+          
+</div>
+
+    
+</body>
+</html>
